@@ -25,7 +25,7 @@ You should create one R script called run_analysis.R that does the following.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each        activity and each subject.
-6. 
+
 
 # About source data
 As sourse data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -35,11 +35,11 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
 1. Download and unzip the dataset (dataset.zip)
 
 2. Merging the training and the test sets to create one data set.
-  2.1 Reading files
-  2.1.1 Reading trainings tables from train folder (x_train.txt,y_train.txt,subject_train.txt)
-  2.1.2 Reading testing tables from test folder  (x_test.txt,y_test.txt,subject_test.txt)
-  2.1.3 Reading feature vector from file feature.txt
-  2.1.4 Reading activity labels from file activity_labels.txt
+ * 2.1 Reading files
+ * 2.1.1 Reading trainings tables from train folder (x_train.txt,y_train.txt,subject_train.txt)
+ * 2.1.2 Reading testing tables from test folder  (x_test.txt,y_test.txt,subject_test.txt)
+ * 2.1.3 Reading feature vector from file feature.txt
+ * 2.1.4 Reading activity labels from file activity_labels.txt
 2.2 Assigning column names
 2.3 Merging all data in one set
 
