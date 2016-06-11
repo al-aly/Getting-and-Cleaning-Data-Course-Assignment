@@ -56,8 +56,8 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
 6.2 Writing tidy data set in txt file (tidy_set.txt)
 
 #About variables:
-  a. x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-  b. x_data, y_data and subject_data merge the previous datasets to further analysis.
-  c. features contains the correct names for the x_data dataset, which are applied to the column names stored in
+ * a. x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+ * b. x_data, y_data and subject_data merge the previous datasets to further analysis.
+ * c. features contains the correct names for the x_data dataset, which are applied to the column names stored in
 
 
