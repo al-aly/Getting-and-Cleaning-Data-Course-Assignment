@@ -27,10 +27,10 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each        activity and each subject.
 
 
-# About source data
+## About source data
 As sourse data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#About R script (run_analysis.R)
+##About R script
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 
 1. Download and unzip the dataset (dataset.zip)
@@ -55,7 +55,7 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
 * Making tidy data set
 * Writing tidy data set in txt file (tidy_set.txt)
 
-#About variables:
+##About variables:
  * a. x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
  * b. x_data, y_data and subject_data merge the previous datasets to further analysis.
  * c. features contains the correct names for the x_data dataset, which are applied to the column names stored in
