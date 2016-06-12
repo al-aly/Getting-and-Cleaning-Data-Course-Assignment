@@ -36,12 +36,12 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
 1. Download and unzip the dataset (dataset.zip)
 2. Merging the training and the test sets to create one data set.
 2.1 Reading files
-2.1.1 Reading trainings tables from train folder (x_train.txt,y_train.txt,subject_train.txt)
-2.1.2 Reading testing tables from test folder  (x_test.txt,y_test.txt,subject_test.txt)
-2.1.3 Reading feature vector from file feature.txt
-2.1.4 Reading activity labels from file activity_labels.txt
-2.2 Assigning column names
-2.3 Merging all data in one set
+  * 2.1.1 Reading trainings tables from train folder (x_train.txt,y_train.txt,subject_train.txt)
+  * 2.1.2 Reading testing tables from test folder  (x_test.txt,y_test.txt,subject_test.txt)
+  * 2.1.3 Reading feature vector from file feature.txt
+  * 2.1.4 Reading activity labels from file activity_labels.txt
+* 2.2 Assigning column names
+* 2.3 Merging all data in one set
 
 3. Extracting only the measurements on the mean and standard deviation for each measurement
  * 3.1 Reading column names
