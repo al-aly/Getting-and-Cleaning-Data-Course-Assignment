@@ -33,7 +33,6 @@ As sourse data for work was used Human Activity Recognition Using Smartphones Da
 #About R script (run_analysis.R)
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 1. Download and unzip the dataset (dataset.zip)
-
 2. Merging the training and the test sets to create one data set.
  * 2.1 Reading files
  * 2.1.1 Reading trainings tables from train folder (x_train.txt,y_train.txt,subject_train.txt)
@@ -44,9 +43,9 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
 2.3 Merging all data in one set
 
 3. Extracting only the measurements on the mean and standard deviation for each measurement
-  3.1 Reading column names
-  3.2 Create vector for defining ID, mean and standard deviation
-  3.3 Making nessesary subset from setAllInOne
+ * 3.1 Reading column names
+ * 3.2 Create vector for defining ID, mean and standard deviation
+ * 3.3 Making nessesary subset from setAllInOne
 
 4. Using descriptive activity names to name the activities in the data set
 5. Appropriately labeling the data set with descriptive variable names
